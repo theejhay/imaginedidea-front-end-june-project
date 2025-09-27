@@ -3,33 +3,34 @@ name: Deploy to Vercel
 on:
   push:
     branches:
-      - main  # deploy on push to main branch
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout the repo
-      - name: Checkout code
+      # 1️⃣ Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       # 2️⃣ Set up Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20 # or your project version
+          node-version: 20
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ Build the project
+      # 4️⃣ Build project (this will fail if there are errors)
       - name: Build project
         run: npm run build
 
-      # 5️⃣ Deploy to Vercel
+      # 5️⃣ Deploy to Vercel only if build succeeds
       - name: Deploy to Vercel
+        if: success()  # ✅ Only run if all previous steps succeeded
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
