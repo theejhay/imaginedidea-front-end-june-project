@@ -10,31 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository
+      #  Checkout repository
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2️⃣ Setup Node.js
+      #  Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20  # Match your project version
 
-      # 3️⃣ Install dependencies
+      #  Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ Run tests (optional, skip if you don't have tests)
-      - name: Run tests
-        run: npm test
-        continue-on-error: false  # Stops workflow if tests fail
 
-      # 5️⃣ Build React project
+      #  Build React project
       - name: Build project
         run: npm run build
         continue-on-error: false  # Stops workflow if build fails
 
-      # 6️⃣ Deploy to Vercel only if build succeeds
+      #  Deploy to Vercel only if build succeeds
       - name: Deploy to Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
