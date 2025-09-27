@@ -1,39 +1,42 @@
-name: Deploy to Vercel
+name: Build and Deploy to Vercel
 
 on:
   push:
     branches:
-      - main
+      - main  # Deploy only on pushes to main branch
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout code
-      - name: Checkout repository
+      # 1️⃣ Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2️⃣ Set up Node.js
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 20  # Match your project version
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ Build project (this will fail if there are errors)
+      # 4️⃣ Run tests (optional, skip if you don't have tests)
+      - name: Run tests
+        run: npm test
+        continue-on-error: false  # Stops workflow if tests fail
+
+      # 5️⃣ Build React project
       - name: Build project
         run: npm run build
+        continue-on-error: false  # Stops workflow if build fails
 
-      # 5️⃣ Deploy to Vercel only if build succeeds
+      # 6️⃣ Deploy to Vercel only if build succeeds
       - name: Deploy to Vercel
-        if: success()  # ✅ Only run if all previous steps succeeded
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
         run: |
-          npx vercel --prod --token $VERCEL_TOKEN --confirm --org $VERCEL_ORG_ID --project $VERCEL_PROJECT_ID
+          npx vercel --prod --token $VERCEL_TOKEN --confirm

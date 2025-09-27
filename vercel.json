@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "imagined-idea-project",
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build" }
+  ],
+  "routes": []
+}
