@@ -1,0 +1,98 @@
+/* Navbar container layout */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1920px;
+  height: 96px;
+  padding: 20px 10%;
+  box-sizing: border-box;
+  background-color: #fff;
+  opacity: 1;
+  margin: 0 auto;
+}
+
+/* Logo styling */
+.navbar-logo .logo-img {
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Nav link layout */
+.navbar-links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+/* Nav link styling */
+.navbar-links a {
+  text-decoration: none;
+  color: #1a2233;
+  font-size: 15px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #a53dff;
+}
+
+/* Contact button styling */
+.navbar-links .contact-btn {
+  background: #a53dff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-links .contact-btn:hover {
+  background: #7c3aed;
+  transform: translateY(-2px);
+}
+
+/* Responsive layout */
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 16px 2vw;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .navbar-logo {
+    margin-bottom: 12px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 12px;
+  }
+
+  .navbar-links li {
+    width: 100%;
+  }
+
+  .navbar-links .contact-btn {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .navbar-contact {
+    margin-top: 12px;
+  }
+}
