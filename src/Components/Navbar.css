@@ -1,18 +1,24 @@
 /* Navbar container layout */
 .navbar {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   max-width: 1920px;
-  height: 96px;
   padding: 20px 10%;
   box-sizing: border-box;
   background-color: #fff;
   opacity: 1;
   margin: 0 auto;
   position: relative;
+}
+
+/* Navbar header: logo + hamburger container */
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 /* Logo styling */
@@ -85,9 +91,12 @@
   }
 
   .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 16px 2vw;
+    padding: 16px 5%;
+  }
+
+  .navbar-header {
+    flex-direction: row;
+    width: 100%;
   }
 
   .navbar-links {
