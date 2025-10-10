@@ -1,0 +1,238 @@
+/* Hero section background */
+.hero {
+  width: 100vw;      
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;  
+  padding-left: 300px; 
+  background: linear-gradient(135deg, #fffafc 0%, #f3f4f6 35%, #e0f7f4 65%, #f6f9ff 100%);
+  overflow: hidden;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 48px;
+  align-items: center;
+  width: 100%;
+  padding: 0 40px;
+}
+
+/* ===== Hero Text Section ===== */
+.hero-left .greeting {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0;
+  justify-content: left;
+  color: #0f172a;
+  margin: 0 0 16px 0;
+}
+
+.hero-left .name {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  color: #0f172a;
+  margin: 0;
+}
+
+.hero-left .intro {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #556070;
+  width: 648px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.strike-text {
+  position: relative;
+  color: #111827;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.strike-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 0, 0, 0.292);
+  transform: translateY(-50%);
+}
+
+/* Call-to-action button */
+.cta-row {
+  margin-bottom: 26px;
+}
+.cta {
+  width: 132px;
+  height: 48px;;
+  background-color: #A53DFF;
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 12px 24px;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(165, 61, 255, 0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(165, 61, 255, 0.3);
+}
+
+/* Stats row */
+.stats {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  
+  margin-top: 150px;
+  justify-content: flex-start; 
+}
+
+.stat {
+  flex: 1 1 180px; 
+  background:#EDD8FF 54%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.stat-value {
+  font-weight: 700;
+  font-size: 1.4rem; 
+  color: #2c2f38;
+}
+
+.stat-label {
+  font-size: 1rem; 
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+.profile-img {
+  width: 536px;
+  height: 636px;
+  border-radius: 26px;
+  object-fit: cover;
+  display: block;
+  opacity: 1;
+  transform: rotate(0deg);
+  
+}
+
+/* === Tablet (up to 1024px) === */
+@media (max-width: 1024px) {
+  .hero {
+    padding-left: 40px; 
+    height: auto;        
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .hero-inner {
+    grid-template-columns: 1fr; 
+    gap: 40px;
+    text-align: center;
+  }
+
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-left .greeting,
+  .hero-left .name {
+    font-size: 56px;
+    line-height: 68px;
+  }
+
+  .hero-left .intro {
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .profile-img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .stats {
+    justify-content: center;
+    margin-top: 60px;
+    gap: 16px;
+  }
+
+  .stat {
+    flex: 1 1 240px;
+  }
+}
+
+/* === Mobile (up to 768px) === */
+@media (max-width: 768px) {
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .hero-left .greeting,
+  .hero-left .name {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .hero-left .intro {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 16px;
+  }
+
+  .cta {
+    width: 100%;
+    max-width: 240px;
+    font-size: 0.95rem;
+  }
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .stat {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .profile-img {
+    max-width: 320px;
+    border-radius: 20px;
+  }
+}

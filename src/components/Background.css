@@ -1,0 +1,51 @@
+.background-container {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  /* Smooth gradient background */
+  background: linear-gradient(
+    135deg,
+    #fdfcfb 0%,
+    #e2d1f9 25%,
+    #d6f8f9 50%,
+    #f9e0d9 75%,
+    #fdfcfb 100%
+  );
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+/*  Medium screens  */
+@media (max-width: 900px) {
+  .background-container {
+    background: linear-gradient(
+      135deg,
+      #fdfcfb 0%,
+      #e2d1f9 40%,
+      #d6f8f9 60%,
+      #f9e0d9 100%
+    );
+  }
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .background-container {
+    background: linear-gradient(
+      160deg,
+      #fdfcfb 0%,
+      #e2d1f9 30%,
+      #d6f8f9 70%,
+      #f9e0d9 100%
+    );
+  }
+}
