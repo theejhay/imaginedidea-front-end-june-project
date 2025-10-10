@@ -1,11 +1,15 @@
 import React from "react";
-import Hero from "./Hero";
+import Hero from "./Components/Hero";
+import Background from "./Components/Background";
+import "./App.css";
 
 function App() {
   return (
     <div>
       <Hero />
-      {/* rest of your app */}
+      <Background/>
+
+     
     </div>
   );
 }

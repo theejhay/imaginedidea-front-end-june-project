@@ -1,6 +1,6 @@
 import React from "react";
-import "./Hero.css";
 import profileImg from "../assets/images/profile.jpg";
+import "./Hero.css";
 
 const Stat = ({ value, label }) => (
   <div className="stat">
@@ -18,10 +18,11 @@ export default function Hero() {
           <h1 className="name">Brooklyn Gilbert</h1>
 
           <p className="intro">
-            I'm a Freelance <strong>UI/UX Designer</strong> and{" "}
-            <strong>Developer</strong> based in London, England. I strive to
-            build immersive and beautiful web applications through carefully
-            crafted code and user-centric design.
+            I'm a Freelance{" "}
+            <span className="strike-text">UI/UX Designer</span> and{" "}
+            <span className="strike-text">Developer</span> based in London,
+            England. I strive to build immersive and beautiful web applications
+            through carefully crafted code and user-centric design.
           </p>
 
           <div className="cta-row">
@@ -38,13 +39,11 @@ export default function Hero() {
         </div>
 
         <div className="hero-right" aria-hidden="false">
-          <div className="profile-card">
-            <img
-              src={profileImg}
-              alt="Portrait of Brooklyn Gilbert"
-              className="profile-img"
-            />
-          </div>
+          <img
+            src={profileImg}
+            alt="Portrait of Brooklyn Gilbert"
+            className="profile-img"
+          />
         </div>
       </div>
     </section>
