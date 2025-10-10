@@ -1,33 +1,29 @@
-/* Navbar container layout */
+/* === Navbar Container === */
 .navbar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
-  max-width: 1920px;
   padding: 20px 10%;
   box-sizing: border-box;
   background-color: #fff;
-  opacity: 1;
-  margin: 0 auto;
   position: relative;
+  z-index: 10;
 }
 
-/* Navbar header: logo + hamburger container */
+/* === Navbar Header: Logo + Hamburger + Links === */
 .navbar-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 
-/* Logo styling */
+/* === Logo === */
 .navbar-logo .logo-img {
   height: 40px;
   cursor: pointer;
 }
 
-/* Hamburger icon */
+/* === Hamburger Icon === */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -44,7 +40,7 @@
   transition: all 0.3s ease;
 }
 
-/* Nav link layout */
+/* === Navigation Links === */
 .navbar-links {
   display: flex;
   gap: 28px;
@@ -66,8 +62,8 @@
   color: #a53dff;
 }
 
-/* Contact button styling */
-.navbar-links .contact-btn {
+/* === Contact Button === */
+.contact-btn {
   background: #a53dff;
   color: #fff;
   border: none;
@@ -79,33 +75,23 @@
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.navbar-links .contact-btn:hover {
+.contact-btn:hover {
   background: #7c3aed;
   transform: translateY(-2px);
 }
 
-/* Responsive layout */
+/* === Responsive Layout === */
 @media (max-width: 900px) {
   .hamburger {
     display: flex;
   }
 
-  .navbar {
-    padding: 16px 5%;
-  }
-
-  .navbar-header {
-    flex-direction: row;
-    width: 100%;
-  }
-
   .navbar-links {
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
-    align-items: flex-start;
-    margin-top: 12px;
     display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 16px;
+    align-items: flex-start;
   }
 
   .navbar-links.active {
@@ -116,12 +102,8 @@
     width: 100%;
   }
 
-  .navbar-links .contact-btn {
+  .contact-btn {
     width: 100%;
     margin-top: 8px;
-  }
-
-  .navbar-contact {
-    margin-top: 12px;
   }
 }
