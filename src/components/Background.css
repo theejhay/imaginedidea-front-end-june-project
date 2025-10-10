@@ -24,7 +24,7 @@
   box-sizing: border-box;
 }
 
-/* 📱 Medium screens  */
+/*  Medium screens  */
 @media (max-width: 900px) {
   .background-container {
     background: linear-gradient(
