@@ -59,7 +59,7 @@
 }
 
 .info strong {
-  font-size: 0.7.rem;
+  font-size: 0.7rem;
   display: block;
 }
 
@@ -67,13 +67,11 @@
   background-color:  #a335f0;
   color: #ffffff;
   padding: 12px;
-  width: 18px;
-  height: 18px;
+  width: 40px;
+  height: 40px;
   border-radius: 8%;
   display: flex;
   justify-content: center;
- 
-  
   
 } 
 .form-control.custom-underline {

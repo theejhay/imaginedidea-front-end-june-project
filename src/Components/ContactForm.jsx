@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import FacebookIcon from "../assets/images/Facebook.png";
 import BallIcon from "../assets/images/Ball.png";
 import BeIcon from "../assets/images/Be.png";
 import LinkedinIcon from "../assets/images/Linkedin.png";
@@ -69,7 +68,7 @@ const ContactForm = () => {
           </div>
 
           <div className="d-flex align-items-center gap-5 mt-4 fs-4">
-            <FontAwesomeIcon icon={faFacebookF} className="social-Icon" />
+            <img src= {FacebookIcon} alt="Facebook" className="social-Icon" />
             <img src={BallIcon} alt="Ball" />
             <img src={BeIcon} alt="Be" />
             <img src={InstagramIcon} alt="Instagram" />
