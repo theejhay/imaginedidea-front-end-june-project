@@ -1,36 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import {useState} from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="work-process-border">
+        <div className="work-process-component">
+          <div className="work-process-component-1">
+            <div className="work-process-component-1-title">Work Process</div>
+            <div className="work-process-component-1-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                purus arcu, varius eget velit non, laoreet imperdiet orci.
+                Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                purus arcu, varius eget velit non.
+              </p>
+            </div>
+          </div>
+          <div className="work-process-component-2">
+            <div className="work-process-component-2-1"></div>
+            <div className="work-process-component-2-2"></div>
+            <div className="work-process-component-2-3"></div>
+            <div className="work-process-component-2-4"></div>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React - Imagined Idea </h1>
-      <h2> Welcome to Imagined Idea Project</h2>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

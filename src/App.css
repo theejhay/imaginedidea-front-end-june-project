@@ -1,42 +1,67 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.work-process-border{
+    background-color: #F0F1F3;
+    width: 1920px;
+    height: 988px;
+    padding: 248px 300px 140px 300px;
+    gap: 10px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.work-process-component{
+    width: 1320px;
+    height: 600px;
+    gap: 143px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.work-process-component-1{
+    width: 529px;
+    height: 240px;
+    gap: 24px;
 }
+.work-process-component-1-title{
+    width: 323px;
+    height: 56px;
+    font-family:"Work Sans";
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+.work-process-component-1-description{
+    width: 529px;
+    height: 160px;
+    gap: 16px;
+}
+.work-process-component-1-description>p:first-child{
+    height: 96px;
+    font-family:"Work Sans";
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    color:#697484;
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.work-process-component-1-description>p:last-child{
+    height: 48px;
+    font-family:"Work Sans";
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    color:#87909D;
 }
-
-.card {
-  padding: 2em;
+.work-process-component-2{
+    width: 648px;
+    height: 600px;    
 }
+.work-process-component-2-1{
+    width: 312px;
+    height: 276px;
+    color: #FFFFFF;
+    left: 672px;
+    border-radius: 12px;
+    padding: 32px;
+    gap: 32px;
 
-.read-the-docs {
-  color: #888;
 }
