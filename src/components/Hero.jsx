@@ -12,38 +12,41 @@ const Stat = ({ value, label }) => (
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="hero-inner">
-        <div className="hero-left">
-          <p className="greeting">Hello, I’m</p>
-          <h1 className="name">Brooklyn Gilbert</h1>
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-lg-6 col-md-12 hero-left">
+            <p className="greeting">Hello, I’m</p>
+            <h1 className="name">Brooklyn Gilbert</h1>
 
-          <p className="intro">
-            I'm a Freelance{" "}
-            <span className="strike-text">UI/UX Designer</span> and{" "}
-            <span className="strike-text">Developer</span> based in London,
-            England. I strive to build immersive and beautiful web applications
-            through carefully crafted code and user-centric design.
-          </p>
+            <p className="intro">
+              I'm a Freelance{" "}
+              <span className="strike-text">UI/UX Designer</span> and{" "}
+              <span className="strike-text">Developer</span> based in London,
+              England. I strive to build immersive and beautiful web
+              applications through carefully crafted code and user-centric
+              design.
+            </p>
 
-          <div className="cta-row">
-            <a className="cta" href="#contact" aria-label="Say hello">
-              Say Hello!
-            </a>
+            <div className="cta-row">
+              <a className="cta" href="#contact" aria-label="Say hello">
+                Say Hello!
+              </a>
+            </div>
+
+            <div className="stats d-flex flex-wrap gap-3 mt-5">
+              <Stat value="15 Y." label="Experience" />
+              <Stat value="250+" label="Projects Completed" />
+              <Stat value="58" label="Happy Clients" />
+            </div>
           </div>
 
-          <div className="stats">
-            <Stat value="15 Y." label="Experience" />
-            <Stat value="250+" label="Projects Completed" />
-            <Stat value="58" label="Happy Clients" />
+          <div className="col-lg-6 col-md-12 hero-right" aria-hidden="false">
+            <img
+              src={profileImg}
+              alt="Portrait of Brooklyn Gilbert"
+              className="profile-img img-fluid"
+            />
           </div>
-        </div>
-
-        <div className="hero-right" aria-hidden="false">
-          <img
-            src={profileImg}
-            alt="Portrait of Brooklyn Gilbert"
-            className="profile-img"
-          />
         </div>
       </div>
     </section>
