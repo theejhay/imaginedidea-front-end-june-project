@@ -1,10 +1,10 @@
 import React from 'react';
-import Hero from './components/Hero';
+import Hero from './Components/Usercard.jsx';
 import './App.css';
 
 function App() {
   return (
-    <Hero/>
+    <Usercard/>
   );
 }
 

@@ -1,0 +1,80 @@
+.user-card-container {
+  width: 1320px;
+  height: 728px;
+  border-radius: 16px;
+  padding: 112px;
+  margin-left: 300px;
+  opacity: 1;
+  transform: rotate(0deg);
+  display: flex;
+  gap: 136px;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #f0f0f0;
+}
+
+/* Social Icons */
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.icon-row img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon-row img:hover {
+  transform: scale(1.1);
+}
+
+/* Text Styling */
+.user-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.user-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.btn-purple {
+  background-color: #6f42c1;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-purple:hover {
+  background-color: #5a34a0;
+}
+
+.btn-pink {
+  background-color: #e83e8c;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #c92c74;
+}
