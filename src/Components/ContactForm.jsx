@@ -67,7 +67,7 @@ const ContactForm = () => {
             </div>
           </div>
 
-          <div className="d-flex align-items-center gap-5 mt-4 fs-4">
+          <div className="d-flex align-items-center gap-4 mt-4 fs-4">
             <img src= {FacebookIcon} alt="Facebook" className="social-Icon" />
             <img src={BallIcon} alt="Ball" />
             <img src={BeIcon} alt="Be" />
@@ -99,7 +99,7 @@ const ContactForm = () => {
                 type="email"
                 name="email"
                 placeholder="Email*"
-                className="form-control border-0 border-bottom"
+                className="form-control custom-underline"
                 value={FormData.email}
                 onChange={handleChange}
                 required
@@ -111,7 +111,7 @@ const ContactForm = () => {
                 type="text"
                 name="location"
                 placeholder="Location*"
-                className="form-control border-0 border-bottom"
+                className="form-control custom-underline"
                 value={FormData.location}
                 onChange={handleChange}
                 required
@@ -124,7 +124,7 @@ const ContactForm = () => {
                   type="text"
                   name="budget"
                   placeholder="Budget*"
-                  className="form-control border-0 border-bottom"
+                  className="form-control custom-underline"
                   value={FormData.budget}
                   onChange={handleChange}
                   required
@@ -136,7 +136,7 @@ const ContactForm = () => {
                   type="text"
                   name="subject"
                   placeholder="Subject*"
-                  className="form-control border-0 border-bottom"
+                  className="form-control custom-underline"
                   value={FormData.subject}
                   onChange={handleChange}
                   required
@@ -149,7 +149,7 @@ const ContactForm = () => {
                 type="text"
                 name="message"
                 placeholder="Message*"
-                className="form-control border-0 border-bottom"
+                className="form-control custom-underline"
                 value={FormData.message}
                 onChange={handleChange}
                 required
