@@ -1,22 +1,22 @@
 import React from 'react';
 import './Usercard.css';
 
-const UserCard = () => {
+const Usercard = () => {
   return (
     <div className="user-card-container">
       <div className="row align-items-center">
         {/* Profile Section */}
         <div className="col-md-5 text-center">
           <img
-            src="/path-to-profile.jpg"
+            src="/assets/images/profile.jpg"
             alt="User"
             className="profile-img"
           />
           <div className="icon-row mt-4">
-            <img src="/icons/linkedin.png" alt="LinkedIn" />
-            <img src="/icons/instagram.png" alt="Instagram" />
-            <img src="/icons/facebook.png" alt="Facebook" />
-            <img src="/icons/behance.png" alt="Behance" />
+            <img src="/assets/images/Social_media_card_1.png" alt="LinkedIn" />
+            <img src="/assets/images/Social_media_card_2.png" alt="Instagram" />
+            <img src="/assets/images/Social_media_card_3.png" alt="Facebook" />
+            <img src="/assets/images/Social_media_card_4.png" alt="Behance" />
           </div>
         </div>
 
@@ -41,4 +41,4 @@ const UserCard = () => {
   );
 };
 
-export default UserCard;
+export default Usercard;
