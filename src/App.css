@@ -2,8 +2,8 @@
 
 .work-process-border{
     background-color: #F0F1F3;
-    width: 1920px;
-    height: 988px;
+    width: 1700px;
+    height: 768px;
     padding: 248px 300px 140px 300px;
     gap: 10px;
 }
@@ -108,4 +108,78 @@
     line-height: 24px;
 }
 
+/* =============================
+   RESPONSIVE (TABLET + MOBILE)
+============================= */
+@media (max-width: 992px) {
+  .work-process-border {
+    width: 100%;
+    height: auto;
+    padding: 80px 20px;
+    box-sizing: border-box;
+  }
 
+  .work-process-component {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .work-process-component-1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .work-process-component-1-title {
+    width: 100%;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 24px;
+  }
+
+  .work-process-component-1-description {
+    width: 100%;
+    height: auto;
+  }
+
+  .work-process-component-1-description > p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+
+  .work-process-component-2 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .work-process-component-2 > div {
+    width: 90%;
+    height: auto;
+    padding: 24px;
+  }
+
+  .work-process-component-2 > div .details {
+    width: 100%;
+    height: auto;
+  }
+
+  .work-process-component-2 > div .details h1 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .work-process-component-2 > div .details p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
