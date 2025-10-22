@@ -16,7 +16,7 @@ const Usercard = () => {
 
         <div className="social-media-card">
           <img src={SocialMedia4} alt="Instagram" />
-          <img src={SocialMedia3} alt="LinkedIn" />
+          <img src={SocialMedia3} alt="LinkedIn" className="linkedin-icon"/>
           <img src={SocialMedia2} alt="Facebook" />
           <img src={SocialMedia1} alt="Behance" />
           <img src={SocialMedia5} alt="Media" />
