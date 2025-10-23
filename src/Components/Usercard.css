@@ -38,7 +38,7 @@
   opacity: 1;
   transform: rotate(0deg);
 }
-/* === SOCIAL MEDIA CARD SECTION (Refined Overlay) === */
+/* === SOCIAL MEDIA CARD SECTION  === */
 .social-media-card {
   position: absolute;
   bottom: -25px;
@@ -68,31 +68,33 @@
 
 /* Bigger, more balanced social icons */
 .social-media-card img {
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.social-media-card img .linkedin-icon {
-  background: #7e3ff2;
-  width: 10px;
-  height: 10px;
-  border-radius: 12px;
-  padding: 2px;             
-  object-fit: cover;     
-  transform: scale(1.25);  
-}
-
-
 .social-media-card img:hover {
-  background: #a53dff;
-  transform: scale(1.08);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  
+  transform: scale(1.1);
+  background: rgba(165, 61, 255, 0.08);
+  box-shadow: 0 4px 10px rgba(165, 61, 255, 0.2);
 }
+.social-media-card img.linkedin-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+
+.social-media-card img.linkedin-icon:hover {
+  transform: scale(1.08);
+   background:  #A53DFF;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* TEXT SECTION (Refined) */
 .text-section {
   width: 536px;
