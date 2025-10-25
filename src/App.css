@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-process-border {
+    background-color: #F0F1F3;
+    width: 100%;
+    max-width: 1700px;
+    min-width: 320px;
+    height: auto;
+    padding: 5vw 5vw 5vw 5vw;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.work-process-component {
+    width: 100%;
+    max-width: 1320px;
+    height: auto;
+    gap: 4vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.work-process-component-1 {
+    width: 100%;
+    max-width: 529px;
+    height: auto;
+    gap: 24px;
+}
+
+.work-process-component-1-title {
+    width: 100%;
+    max-width: 323px;
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.work-process-component-1-description {
+    width: 100%;
+    max-width: 529px;
+    gap: 16px;
+}
+
+.work-process-component-1-description > p:first-child,
+.work-process-component-1-description > p:last-child {
+    width: 100%;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+
+.work-process-component-1-description > p:first-child {
+    color: #697484;
+}
+
+.work-process-component-1-description > p:last-child {
+    color: #87909D;
+}
+
+.work-process-component-2 {
+    width: 100%;
+    max-width: 648px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.work-process-component-2 > div {
+    width: 100%;
+    max-width: 312px;
+    min-width: 220px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    flex: 1 1 300px;
+}
+
+.work-process-component-2 > div > img {
+    width: 72px;
+    max-width: 100%;
+    height: auto;
+}
+
+.work-process-component-2 > div .details {
+    width: 100%;
+    max-width: 248px;
+    height: auto;
+    gap: 12px;
+}
+
+.work-process-component-2 > div .details h1 {
+    width: 100%;
+    max-width: 111px;
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.work-process-component-2 > div .details > p {
+    width: 100%;
+    max-width: 248px;
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .work-process-component {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .work-process-component-2 {
+        max-width: 100%;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 900px) {
+    .work-process-border {
+        padding: 32px 16px;
+    }
+    .work-process-component-1-title {
+        font-size: 2rem;
+    }
+    .work-process-component-2 > div {
+        max-width: 100%;
+        min-width: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .work-process-border {
+        padding: 16px 8px;
+    }
+    .work-process-component-1-title {
+        font-size: 1.5rem;
+    }
+    .work-process-component-2 {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .work-process-component-2 > div {
+        padding: 16px;
+    }
+}
