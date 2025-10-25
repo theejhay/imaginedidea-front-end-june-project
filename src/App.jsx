@@ -1,10 +1,13 @@
-import React from 'react';
-import Usercard from './Components/Usercard.jsx'; 
 import './App.css';
+import ContactForm from './components/ContactForm';
+
 
 function App() {
   return (
-    <Usercard /> 
+    <>
+      <ContactForm />
+    </>
+    
   );
 }
 
