@@ -157,9 +157,13 @@ const ContactForm = () => {
             </div>
 
             <div className="d-flex justify-content-start mt-5">
-              <button type="submit">
-                <span className="me-2">Submit</span>{" "}
-                <img src={PlaneIcon} alt="plane" />
+              <button
+                type="submit"
+                className="submit-btn-with-plane"
+                style={{ display: "flex", alignItems: "center" }}
+              >
+                <span className="me-2">Submit</span>
+                <img src={PlaneIcon} alt="plane" className="plane-icon" />
               </button>
             </div>
           </form>
