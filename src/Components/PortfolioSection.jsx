@@ -57,7 +57,7 @@ const projects = [
   },
 ];
 
-function Portfolio() {
+function PortfolioSection() {
   return (
     <>
       <div className="portfolio-container">
@@ -95,4 +95,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default PortfolioSection;
