@@ -1,0 +1,324 @@
+/* === USER CARD CONTAINER === */
+.user-card-container {
+  width: 1380px;
+  height: 728px;
+  border-radius: 16px;
+  padding: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 136px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  opacity: 1;
+  transform: rotate(0deg);
+  box-sizing: border-box;
+
+  /* Center it perfectly on the screen */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* === PROFILE IMAGE SECTION === */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 424px;
+  height: 468px;
+  margin-left: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+/* === SOCIAL MEDIA CARD SECTION  === */
+.social-media-card {
+  position: absolute;
+  bottom: -25px;
+  left: 65%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 60px;
+  background: #ffffff;
+  border: none; 
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 10px; 
+  z-index: 10;
+}
+
+
+/* Profile section ensures relative positioning */
+.profile-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bigger, more balanced social icons */
+.social-media-card img {
+  border-radius: 5px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-media-card img:hover {
+  transform: scale(1.1);
+  background: rgba(165, 61, 255, 0.08);
+  box-shadow: 0 4px 10px rgba(165, 61, 255, 0.2);
+}
+
+
+
+
+
+/* TEXT SECTION (Refined) */
+.text-section {
+  width: 536px;
+  display: flex;
+  margin-right: 245px;
+
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* Main paragraph */
+.user-description {
+  width: 536px;
+  height: 72px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400; 
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(46, 46, 46, 0.7);
+  opacity: 1;
+}
+
+/* Short paragraph */
+.user-short {
+  width: 536px;
+  height: 48px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(46, 46, 46, 0.7);
+  opacity: 1;
+}
+
+.text-section p {
+  margin: 0;
+}
+/* Button Group */
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 16px; 
+  margin-top: 32px;
+}
+
+/* My Project button */
+.btn-project {
+  width: 132px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px 24px;
+  background: #a53dff;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-project:hover {
+  background: transparent;
+  border: 2px solid #a53dff;
+  color: #000;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+/* Download CV button */
+.btn-download {
+  width: 185px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px 24px;
+  background: transparent;
+  color: #a53dff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  border: 2px solid #a53dff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-download:hover {
+  background: #a53dff;
+  color: #fff;
+}
+/* =============================
+   RESPONSIVE (TABLET + MOBILE)
+============================= */
+@media (max-width: 992px) {
+  /* === USER CARD CONTAINER === */
+  .user-card-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    padding: 60px 40px;
+    gap: 60px;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+
+    /* Reset absolute centering for mobile */
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: 60px auto;
+  }
+
+  /* === PROFILE SECTION === */
+  .profile-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .profile-img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  /* === SOCIAL MEDIA CARD === */
+  .social-media-card {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 60px;
+    border-radius: 8px;
+    border: 0.5px solid #e5e5e5;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 8px;
+    z-index: 10;
+  }
+
+  .social-media-card img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+  /* === TEXT SECTION === */
+  .text-section {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .user-description,
+  .user-short {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(46, 46, 46, 0.7);
+  }
+
+  /* === BUTTON GROUP === */
+  .button-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 28px;
+  }
+
+  .btn-project,
+  .btn-download {
+    width: auto;
+    padding: 12px 24px;
+    font-size: 15px;
+    height: 46px;
+  }
+}
+
+/* ======== SMALL MOBILE (≤600px) ======== */
+@media (max-width: 600px) {
+  .user-card-container {
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .profile-img {
+    max-width: 280px;
+  }
+
+  .social-media-card {
+    width: 180px;
+    height: 48px;
+  }
+
+  .social-media-card img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .user-description,
+  .user-short {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .btn-project,
+  .btn-download {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
