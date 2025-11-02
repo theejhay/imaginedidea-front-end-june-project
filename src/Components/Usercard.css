@@ -38,16 +38,17 @@
   opacity: 1;
   transform: rotate(0deg);
 }
-/* === SOCIAL MEDIA CARD SECTION  === */
+/* === SOCIAL MEDIA CARD SECTION (Refined Overlay) === */
 .social-media-card {
   position: absolute;
   bottom: -25px;
   left: 65%;
   transform: translateX(-50%);
   width: 320px;
-  height: 60px;
+  height: 70px;
   background: #ffffff;
-  border: none; 
+  border-radius: 0px;
+  border: 0.5px solid #e5e5e5; 
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: space-evenly;
@@ -67,22 +68,31 @@
 
 /* Bigger, more balanced social icons */
 .social-media-card img {
+  width: 50px;
+  height: 50px;
   border-radius: 5px;
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.social-media-card img:hover {
-  transform: scale(1.1);
-  background: rgba(165, 61, 255, 0.08);
-  box-shadow: 0 4px 10px rgba(165, 61, 255, 0.2);
+.social-media-card img .linkedin-icon {
+  background: #7e3ff2;
+  width: 10px;
+  height: 10px;
+  border-radius: 12px;
+  padding: 2px;             
+  object-fit: cover;     
+  transform: scale(1.25);  
 }
 
 
-
-
-
+.social-media-card img:hover {
+  background: #a53dff;
+  transform: scale(1.08);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  
+}
 /* TEXT SECTION (Refined) */
 .text-section {
   width: 536px;
@@ -152,11 +162,7 @@
 }
 
 .btn-project:hover {
-  background: transparent;
-  border: 2px solid #a53dff;
-  color: #000;
-  transition: all 0.3s ease;
-  font-size: 14px;
+  background: #922ee5; 
 }
 
 /* Download CV button */
@@ -185,140 +191,75 @@
    RESPONSIVE (TABLET + MOBILE)
 ============================= */
 @media (max-width: 992px) {
-  /* === USER CARD CONTAINER === */
   .user-card-container {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 90%;
     height: auto;
-    padding: 60px 40px;
-    gap: 60px;
-    border-radius: 16px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-    background-color: #ffffff;
-
-    /* Reset absolute centering for mobile */
-    position: static;
-    top: auto;
-    left: auto;
-    transform: none;
+    padding: 40px 20px;
     margin: 60px auto;
+    position: static;
+    transform: none;
+    text-align: center;
+    gap: 40px;
   }
 
-  /* === PROFILE SECTION === */
   .profile-section {
     position: relative;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin-bottom: 40px;
+    align-items: center;
   }
 
   .profile-img {
     width: 100%;
-    max-width: 360px;
+    max-width: 320px;
     height: auto;
     margin: 0 auto;
-    object-fit: cover;
-    border-radius: 12px;
   }
-
-  /* === SOCIAL MEDIA CARD === */
-  .social-media-card {
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 220px;
-    height: 60px;
-    border-radius: 8px;
-    border: 0.5px solid #e5e5e5;
-    background: #ffffff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 8px;
-    z-index: 10;
-  }
-
+.social-media-card {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;         
+  height: 36px;         
+  justify-content: space-around;
+  padding: 0 8px;
+}
   .social-media-card img {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-  }
+  width: 32px;
+  height: 32px;
+}
 
-  /* === TEXT SECTION === */
   .text-section {
     width: 100%;
-    max-width: 540px;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 20px;
   }
 
   .user-description,
   .user-short {
-    width: 100%;
     font-size: 16px;
-    line-height: 24px;
-    color: rgba(46, 46, 46, 0.7);
+    line-height: 22px;
+    width: 100%;
   }
 
-  /* === BUTTON GROUP === */
   .button-group {
     width: 100%;
-    display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    gap: 16px;
-    margin-top: 28px;
+    gap: 12px;
+    margin-top: 24px;
   }
 
   .btn-project,
   .btn-download {
     width: auto;
-    padding: 12px 24px;
-    font-size: 15px;
-    height: 46px;
-  }
-}
-
-/* ======== SMALL MOBILE (≤600px) ======== */
-@media (max-width: 600px) {
-  .user-card-container {
-    padding: 40px 20px;
-    gap: 40px;
-  }
-
-  .profile-img {
-    max-width: 280px;
-  }
-
-  .social-media-card {
-    width: 180px;
-    height: 48px;
-  }
-
-  .social-media-card img {
-    width: 32px;
-    height: 32px;
-  }
-
-  .user-description,
-  .user-short {
-    font-size: 15px;
-    line-height: 22px;
-  }
-
-  .btn-project,
-  .btn-download {
-    font-size: 14px;
-    padding: 10px 20px;
+    padding: 12px 20px;
   }
 }

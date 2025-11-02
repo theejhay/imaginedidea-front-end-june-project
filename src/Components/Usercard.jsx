@@ -15,11 +15,11 @@ const Usercard = () => {
         <img src={ProfileImage} alt="User" className="profile-img" />
 
         <div className="social-media-card">
-          <img src={SocialMedia4} alt="Facebook" />
-          <img src={SocialMedia3} alt="Dribbble" />
-          <img src={SocialMedia2} alt="Instagram" />
-          <img src={SocialMedia1} alt="LinkedIn" className="linkedin-icon" />
-          <img src={SocialMedia5} alt="Behance" />
+          <img src={SocialMedia4} alt="Instagram" />
+          <img src={SocialMedia3} alt="LinkedIn" className="linkedin-icon"/>
+          <img src={SocialMedia2} alt="Facebook" />
+          <img src={SocialMedia1} alt="Behance" />
+          <img src={SocialMedia5} alt="Media" />
         </div>
       </div>
 
