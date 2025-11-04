@@ -1,4 +1,4 @@
-import "./Testimonial.css"
+import "./Testimonial.css";
 import Pagination from "../assets/Testimonial-images/Pagination.png";
 
 function Testimonial() {
@@ -6,9 +6,7 @@ function Testimonial() {
     <div className="testimonial-container">
       <div className="frame-283">
         <div className="head-and-sub-head">
-          <h2 className="heading">
-            Testmonial
-          </h2>
+          <h2 className="heading">Testmonial</h2>
 
           <p className="sub-heading">
             There are many variations of passages of Lorem Ipsum available, but
@@ -26,14 +24,9 @@ function Testimonial() {
           </p>
 
           <div className="name-and-company">
+            <h4 className="name">Esther Howard</h4>
 
-            <h4 className="name">
-              Esther Howard
-            </h4>
-
-            <p className="company">
-              Managing Director,ABC company
-            </p>
+            <p className="company">Managing Director,ABC company</p>
           </div>
         </div>
       </div>

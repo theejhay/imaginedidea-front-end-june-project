@@ -1,90 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .happy-client-container {
- width: 1920px;
- height: 552px;
- padding-top: 100px;
- padding-right: 300px;
- padding-bottom: 100px;
- padding-left: 300px;
- gap: 24px;
+  width: 1920px;
+  height: 552px;
+  padding-top: 100px;
+  padding-right: 300px;
+  padding-bottom: 100px;
+  padding-left: 300px;
+  gap: 24px;
 }
 
 .frame-281 {
- width: 577px;
- height: 128px;
- gap: 24px;
- place-self: center;
+  width: 577px;
+  height: 128px;
+  gap: 24px;
+  place-self: center;
 }
 
 .happy-client {
- width: 327px;
- height: 56px;
- color: #132238;
- font-family: Work Sans;
- font-weight: 600;
- font-style: SemiBold;
- font-size: 48px;
- line-height: 56px;
- letter-spacing: 0%;
- place-self: center;
+  width: 327px;
+  height: 56px;
+  color: #132238;
+  font-family: Work Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  place-self: center;
 }
 
 .sub-heading {
- width: 577px;
- height: 48px;
- color: #87909D;
- font-family: Work Sans;
- font-weight: 400;
- font-style: regular;
- font-size: 18px;
- line-height: 24px;
- letter-spacing: 0%;
- display: flex;
- flex-direction: column;
- place-self: center;
- text-align: center;
- padding-top: 24px;
+  width: 577px;
+  height: 48px;
+  color: #87909d;
+  font-family: Work Sans;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  display: flex;
+  flex-direction: column;
+  place-self: center;
+  text-align: center;
+  padding-top: 24px;
 }
 
 .frame-280 {
- width: 1320px;
- height: 200px;
- gap: 24px;
- display: flex;
- flex-direction: row;
- align-items: center;
+  width: 1320px;
+  height: 200px;
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .google {
- width: 200px;
- height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .dribbble {
- width: 200px;
- height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .linkedin {
- width: 200px;
- height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .amazon {
- width: 200px;
- height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .medium {
- line-height: 200px;
+  line-height: 200px;
 }
 
 .spotify {
- width: 200px;
- height: 200px;   
+  width: 200px;
+  height: 200px;
 }
