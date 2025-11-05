@@ -1,9 +1,15 @@
 import ProjectCard from "./ProjectCard";
 import "./Portfolio.css";
+import img1 from "../assets/images/portfolio/unsplash-1.png";
+import img2 from "../assets/images/portfolio/unsplash-2.png";
+import img3 from "../assets/images/portfolio/laptop.jpg";
+import img4 from "../assets/images/portfolio/board-room.jpg";
+import img5 from "../assets/images/portfolio/avocado.jpg";
+import img6 from "../assets/images/portfolio/lavender.jpg";
 
 const projects = [
   {
-    image: "src/assets/images/portfolio/unsplash-1.png",
+    image: img1,
     subTitle: "UI-UX DESIGN",
     title: "Product Admin Dashboard",
     description:
@@ -12,7 +18,7 @@ const projects = [
   },
 
   {
-    image: "src/assets/images/portfolio/unsplash-2.png",
+    image: img2,
     subTitle: "UI-UX DESIGN",
     title: "Product Admin Dashboard",
     description:
@@ -21,7 +27,7 @@ const projects = [
   },
 
   {
-    image: "src/assets/images/portfolio/laptop.jpg",
+    image: img3,
     subTitle: "UI-UX DESIGN",
     title: "Product Admin Dashboard",
     description:
@@ -30,7 +36,7 @@ const projects = [
   },
 
   {
-    image: "src/assets/images/portfolio/board-room.jpg",
+    image: img4,
     subTitle: "UI-UX DESIGN",
     title: "Product Admin Dashboard",
     description:
@@ -39,7 +45,7 @@ const projects = [
   },
 
   {
-    image: "src/assets/images/portfolio/avocado.jpg",
+    image: img5,
     subTitle: "UI-UX DESIGN",
     title: "Product Admin Dashboard",
     description:
@@ -48,7 +54,7 @@ const projects = [
   },
 
   {
-    image: "src/assets/images/portfolio/lavender.jpg",
+    image: img6,
     subTitle: "UI-UX DESIGN",
     title: "Product Admin Dashboard",
     description:
@@ -75,7 +81,6 @@ function PortfolioSection() {
               return (
                 <div className="col-12 col-sm-6 col-md-4 mb-4" key={index}>
                   <ProjectCard
-                    key={index}
                     image={project.image}
                     subTitle={project.subTitle}
                     title={project.title}

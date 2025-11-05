@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .portfolio-container {
-  width: 1920px;
   height: 1472px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -12,13 +11,11 @@
 }
 
 .portfolio-and-project-card {
-  width: 1920px;
   height: 1174px;
   gap: 70px;
 }
 
 .frame-286 {
-  width: 1920px;
   height: 128px;
   justify-content: space-between;
   padding-right: 200px;
@@ -52,11 +49,6 @@
   text-align: center;
   padding-left: 100px;
   align-items: center;
-}
-
-.row {
-  width: 1320px;
-  height: 476px;
 }
 
 .more-project-btn {
