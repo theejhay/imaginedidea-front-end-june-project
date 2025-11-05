@@ -9,8 +9,8 @@ function App() {
     <>
       <WorkProcess />
       <ContactForm />
-      <HappyClient/>
-      <Testimonial/>
+      <HappyClient />
+      <Testimonial />
     </>
     
   );

@@ -1,10 +1,10 @@
 import "./Testimonial.css";
-import Pagination from "../assets/Testimonial-images/Pagination.png";
+import Pagination from "../assets/images/Testimonial-images/Pagination.png";
 
 function Testimonial() {
   return (
-    <div className="testimonial-container">
-      <div className="frame-283">
+    <div className="testimonial-container col-12 col-sm-6 col-md-4 mb-4">
+      <div className="frame-283 col-12 col-sm-6 col-md-4 mb-4">
         <div className="head-and-sub-head">
           <h2 className="heading">Testmonial</h2>
 
@@ -13,7 +13,7 @@ function Testimonial() {
             the majority have suffered alteration.
           </p>
         </div>
-        <div className="frame-282">
+        <div className="frame-282 col-12 col-sm-6 col-md-4 mb-4">
           <p className="testimonial-paragraph">
             “Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis
             felis turpis, nec semper odio convallis at. Curabitur imperdiet
