@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import "./Portfolio.css";
+import "./PortfolioSection.css";
 import img1 from "../assets/images/portfolio/unsplash-1.png";
 import img2 from "../assets/images/portfolio/unsplash-2.png";
 import img3 from "../assets/images/portfolio/laptop.jpg";
