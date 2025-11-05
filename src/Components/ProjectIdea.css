@@ -1,32 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Work+Sans:ital;wght@0;100..900;1;100..900&display=swap");
 
 .project-idea-container {
-  width: 1921px;
-  height: 472px;
+  width: auto;
   background-color: #132238;
   padding-top: 100px;
-  padding-right: 650px;
   padding-bottom: 100px;
-  padding-left: 650px;
   gap: 32px;
   justify-content: center;
 }
 
 .heading {
   width: 621px;
-  height: 112px;
   color: #ffffff;
   font-family: work sans;
   font-weight: 600;
   font-style: SemiBold;
   font-size: 48px;
-  line-height: 56px;
   letter-spacing: 0%;
+  text-align: center;
+  place-self: center;
 }
 
 .sub-heading {
   width: 581px;
-  height: 48px;
   color: #a5acb5;
   font-family: work sans;
   font-weight: 400;
@@ -36,11 +32,12 @@
   letter-spacing: 0%;
   text-align: center;
   padding-top: 32px;
+  place-self: center;
 }
 
 .project-idea-btn {
   place-self: center;
-  padding-top: 48px;
+  padding-top: 18px;
 }
 
 .btn-primary {
@@ -50,15 +47,10 @@
   background-color: #a53dff;
   border-radius: 4px;
   gap: 12px;
-  padding-top: 12px;
-  padding-right: 24px;
-  padding-bottom: 24px;
-  padding-left: 24px;
   font-family: work sans;
   font-weight: 600;
   font-style: SemiBold;
   font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0%;
   border: none;
 }
