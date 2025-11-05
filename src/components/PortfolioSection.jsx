@@ -67,31 +67,30 @@ function PortfolioSection() {
   return (
     <>
       <div className="portfolio-container">
-        <div className="portfolio-and-project-card">
-          <div className="frame-286">
-            <h2 className="title"> Portfolio </h2>
-            <p className="sub-heading">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration.
-            </p>
-          </div>
-
-          <div className="row">
-            {projects.map((project, index) => {
-              return (
-                <div className="col-12 col-sm-6 col-md-4 mb-4" key={index}>
-                  <ProjectCard
-                    image={project.image}
-                    subTitle={project.subTitle}
-                    title={project.title}
-                    description={project.description}
-                    caseStudy={project.caseStudy}
-                  />
-                </div>
-              );
-            })}
-          </div>
+        <div className="frame-286">
+          <h2 className="title"> Portfolio </h2>
+          <p className="sub-heading">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
+          </p>
         </div>
+
+        <div className="row">
+          {projects.map((project, index) => {
+            return (
+              <div className="col-12 col-sm-6 col-md-4 mb-4" key={index}>
+                <ProjectCard
+                  image={project.image}
+                  subTitle={project.subTitle}
+                  title={project.title}
+                  description={project.description}
+                  caseStudy={project.caseStudy}
+                />
+              </div>
+            );
+          })}
+        </div>
+
         <div className="more-project">
           <button className="more-project-btn"> More Project</button>
         </div>

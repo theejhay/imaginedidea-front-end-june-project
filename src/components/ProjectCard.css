@@ -1,13 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-.flex-wrap {
-  height: 476px;
-  gap: 24px;
+.container {
+  padding-top: 50px;
 }
 
 .card {
-  width: 424px;
-  height: 476px;
   gap: 32px;
   border-radius: 8px;
   border: 1px;
@@ -17,26 +14,12 @@
 }
 
 .card-img-top {
-  width: 424px;
-  height: 248px;
   border-radius: 8px;
+  height: 200px;
 }
 
 .frame-56 {
-  width: 360px;
-  height: 164px;
   gap: 20px;
-}
-
-.card-body {
-  width: 360px;
-  height: 96px;
-  gap: 12px;
-}
-
-.frame-55 {
-  width: 232px;
-  gap: 4px;
 }
 
 .sub-title {
@@ -44,47 +27,33 @@
   font-weight: 500;
   font-size: 12px;
   font-family: work sans;
-  line-height: 16px;
   letter-spacing: 0%;
-  width: 84px;
-  height: 16px;
 }
 
 .card-title {
   color: #132238;
-  width: 232px;
-  height: 24px;
   font-family: work sans;
   font-weight: 600;
   font-size: 18px;
-  line-height: 24px;
   letter-spacing: 0%;
 }
 
 .card-text {
   color: #556070;
-  width: 360px;
-  height: 40px;
   font-family: work sans;
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px;
   letter-spacing: 0%;
 }
 
 .case-study {
-  padding-top: 24px;
-  padding-right: 12px;
-  padding-bottom: 24px;
-  padding-left: 12px;
+  padding-right: 17px;
+  padding-left: 17px;
 }
 
 .btn-primary {
-  width: 173px;
-  height: 48px;
   border-radius: 4px;
   border: 1px;
-  gap: 12px;
   background-color: #ffffff;
   color: #a53dff;
   border-color: #a53dff;
@@ -92,16 +61,23 @@
   font-family: work sans;
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
 }
 
 .btn-primary:hover {
+  width: 138px;
+  height: 37.5px;
   background-color: #ffffff;
   color: #a53dff;
   border-color: #a53dff;
+  border-style: solid;
+  font-family: work sans;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
   padding: 0%;
 }
-.btn-primary:active:hover {
+
+.btn-primary:hover:active {
   background-color: #ffffff;
   color: #a53dff;
   border-color: #a53dff;
