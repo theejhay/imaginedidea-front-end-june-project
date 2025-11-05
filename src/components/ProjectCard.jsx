@@ -11,8 +11,10 @@ function ProjectCard({ image, subTitle, title, description, caseStudy }) {
             <img src={image} className="card-img-top" />
             <div className="frame-56">
               <div className="card-body">
-                <h6 className="sub-title"> {subTitle} </h6>
-                <h5 className="card-title"> {title} </h5>
+                <div className="frame-55">
+                  <h6 className="sub-title"> {subTitle} </h6>
+                  <h5 className="card-title"> {title} </h5>
+                </div>
                 <p className="card-text"> {description} </p>
               </div>
               <div className="case-study">
