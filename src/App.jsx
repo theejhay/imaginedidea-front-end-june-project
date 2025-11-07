@@ -4,8 +4,9 @@ import ContactForm from "./components/ContactForm";
 import WorkProcess from "./components/WorkProcess";
 import WhatIDo from "./components/WhatIDo";
 import "bootstrap/dist/css/bootstrap.min.css";
-import HappyClient from "./Components/HappyClient";
-import Testimonial from "./Components/Testimonial";
+import HappyClient from "./components/HappyClient";
+import Testimonial from "./components/Testimonial";
+
 
 function App() {
   return (
