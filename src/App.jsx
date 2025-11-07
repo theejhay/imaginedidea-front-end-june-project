@@ -2,6 +2,7 @@ import "./App.css";
 import Blog from "./components/Blog";
 import ContactForm from "./components/ContactForm";
 import WorkProcess from "./components/WorkProcess";
+import WhatIDo from "./components/WhatIDo";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -11,6 +12,7 @@ function App() {
       <WorkProcess />
       <ContactForm />
       <Blog />
+      <WhatIDo /> 
     </>
   );
 }
