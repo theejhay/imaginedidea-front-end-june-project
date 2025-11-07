@@ -8,7 +8,6 @@
 }
 
 .frame-283 {
-
   width: auto;
   gap: 70px;
   display: flex;
@@ -19,11 +18,9 @@
 
 .head-and-sub-head {
   gap: 24px;
-  padding-right: 330px;
-  padding-left: 330px;
 }
 
-.heading { 
+.heading {
   color: #333333;
   font-family: work sans;
   font-weight: 600;
@@ -47,8 +44,6 @@
 .frame-282 {
   gap: 24px;
   width: auto;
-  padding-right: 180px;
-  padding-left: 180px;
 }
 
 .testimonial-paragraph {

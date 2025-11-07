@@ -13,8 +13,8 @@ function HappyClient() {
         <h2 className="happy-client">Happy Clients</h2>
 
         <p className="sub-heading">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration.
+          There are many variations of passages of Lorem Ipsum available, <br />
+           but the majority have suffered alteration.
         </p>
       </div>
       <div className="frame-280 col-12 col-sm-6 col-md-4 mb-4">

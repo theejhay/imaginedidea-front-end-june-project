@@ -9,18 +9,20 @@ function Testimonial() {
           <h2 className="heading">Testmonial</h2>
 
           <p className="sub-heading">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration.
+            There are many variations of passages of Lorem Ipsum available,{" "}
+            <br />
+            but the majority have suffered alteration.
           </p>
         </div>
         <div className="frame-282 col-12 col-sm-6 col-md-4 mb-4">
           <p className="testimonial-paragraph">
             “Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis
-            felis turpis, nec semper odio convallis at. Curabitur imperdiet
-            semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh.
-            Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien.
-            <br />
-            Morbi ornare elit at libero suscipit porta.”
+            felis turpis, nec semper odio
+            <br /> convallis at. Curabitur imperdiet semper arcu, a finibus arcu
+            suscipit in. Donec quis placerat nibh.
+            <br /> Maecenas est purus, eleifend ac cursus sed, tincidunt ut
+            sapien.
+            <br /> Morbi ornare elit at libero suscipit porta.”
           </p>
 
           <div className="name-and-company">

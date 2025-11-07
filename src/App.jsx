@@ -1,8 +1,8 @@
 import "./App.css";
 import WorkProcess from "./components/WorkProcess";
 import ContactForm from './components/ContactForm';
-import HappyClient from "./Components/HappyClient";
-import Testimonial from "./Components/Testimonial";
+import HappyClient from "./components/HappyClient";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
