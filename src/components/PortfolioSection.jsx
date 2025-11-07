@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import "./Portfolio.css";
+import "./PortfolioSection.css";
 import img1 from "../assets/images/portfolio/unsplash-1.png";
 import img2 from "../assets/images/portfolio/unsplash-2.png";
 import img3 from "../assets/images/portfolio/laptop.jpg";
@@ -71,7 +71,7 @@ function PortfolioSection() {
           <div className="frame-286">
             <h2 className="title"> Portfolio </h2>
             <p className="sub-heading">
-              There are many variations of passages of Lorem Ipsum available,
+              There are many variations of passages of Lorem Ipsum available,  <br />
               but the majority have suffered alteration.
             </p>
           </div>

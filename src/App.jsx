@@ -1,7 +1,7 @@
 import "./App.css";
 import WorkProcess from "./components/WorkProcess";
 import ContactForm from "./components/ContactForm";
-import PortfolioSection from "./Components/PortfolioSection";
+import PortfolioSection from "./components/PortfolioSection";
 
 
 function App() {
