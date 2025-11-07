@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.happy-client-container {
+  width: auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  gap: 24px;
+}
+
+.frame-281 {
+  gap: 24px;
+  place-self: center;
+}
+
+.happy-client {
+  color: #132238;
+  font-family: Work Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-heading {
+  color: #87909d;
+  font-family: Work Sans;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 18px;
+  letter-spacing: 0%;
+  display: flex;
+  flex-direction: column;
+  place-self: center;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.frame-280 {
+  width: auto;
+  display: flex;
+  align-items: center;
+  place-self: center;
+}
+
