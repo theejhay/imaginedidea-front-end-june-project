@@ -1,7 +1,7 @@
-import "./ProjectIdea.css";
+import "./ProjectIdeas.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-function ProjectIdea() {
+function ProjectIdeas() {
   return (
     <div className="project-idea-container col-12 col-sm-6 col-md-4 mb-4">
       <h2 className="heading">
@@ -22,4 +22,4 @@ function ProjectIdea() {
   );
 }
 
-export default ProjectIdea;
+export default ProjectIdeas;
