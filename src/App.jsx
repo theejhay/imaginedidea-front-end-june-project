@@ -1,7 +1,7 @@
 import "./App.css";
 import WorkProcess from "./components/WorkProcess";
 import ContactForm from './components/ContactForm';
-import ProjectIdea from "./Components/ProjectIdea";
+import ProjectIdea from "./components/ProjectIdea";
 
 function App() {
   return (
