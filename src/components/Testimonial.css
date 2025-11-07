@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Work+Sans:ital;wght@0;100..900;1;100..900&display=swap");
+
+.testimonial-container {
+  width: auto;
+  padding-bottom: 100px;
+  gap: 50px;
+  align-items: center;
+}
+
+.frame-283 {
+  width: auto;
+  gap: 70px;
+  display: flex;
+  flex-direction: column;
+  place-self: center;
+  align-items: center;
+}
+
+.head-and-sub-head {
+  gap: 24px;
+}
+
+.heading {
+  color: #333333;
+  font-family: work sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 48px;
+  letter-spacing: 0%;
+  place-self: center;
+}
+
+.sub-heading {
+  color: #87909d;
+  font-family: work sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.frame-282 {
+  gap: 24px;
+  width: auto;
+}
+
+.testimonial-paragraph {
+  color: #2b384c;
+  font-family: work sans;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.name-and-company {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-self: center;
+}
+
+.name {
+  color: #000000;
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: Medium;
+  font-size: 18px;
+  letter-spacing: 0%;
+  place-self: center;
+  text-align: center;
+}
+
+.company {
+  color: #000000;
+  font-family: Poppins;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.pagination {
+  gap: 12px;
+  place-self: center;
+}

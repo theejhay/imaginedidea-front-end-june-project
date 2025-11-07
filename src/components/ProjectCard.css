@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  padding-top: 70px;
+}
+
+.card {
+  gap: 32px;
+  border-radius: 8px;
+  border: 1px;
+  border-color: #e6e8eb;
+  padding-bottom: 32px;
+  box-shadow: 5px 5px 20px 5px #1c19191f;
+}
+
+.card-img-top {
+  border-radius: 8px;
+  height: 200px;
+}
+
+.frame-56 {
+  gap: 20px;
+}
+
+.sub-title {
+  color: #87909d;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: work sans;
+  letter-spacing: 0%;
+}
+
+.card-title {
+  color: #132238;
+  font-family: work sans;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0%;
+}
+
+.card-text {
+  color: #556070;
+  font-family: work sans;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0%;
+}
+
+.case-study {
+  padding-right: 17px;
+  padding-left: 17px;
+}
+
+.btn-primary {
+  border-radius: 4px;
+  border: 1px;
+  background-color: #ffffff;
+  color: #a53dff;
+  border-color: #a53dff;
+  border-style: solid;
+  font-family: work sans;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  width: 138px;
+  height: 37.5px;
+  background-color: #ffffff;
+  color: #a53dff;
+  border-color: #a53dff;
+  border-style: solid;
+  font-family: work sans;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+.btn-primary:hover:active {
+  background-color: #ffffff;
+  color: #a53dff;
+  border-color: #a53dff;
+}
+
+.arrow {
+  width: 12px;
+  height: 12.01px;
+  padding-left: 12px;
+}
