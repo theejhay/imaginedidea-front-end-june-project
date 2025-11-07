@@ -2,7 +2,6 @@ import "./App.css";
 import Blog from "./components/Blog";
 import ContactForm from "./components/ContactForm";
 import WorkProcess from "./components/WorkProcess";
-import ContactForm from './components/ContactForm';
 import HappyClient from "./components/HappyClient";
 import Testimonial from "./components/Testimonial";
 import WhatIDo from "./components/WhatIDo";
