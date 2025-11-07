@@ -1,7 +1,9 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Blog from "./components/Blog";
 import ContactForm from "./components/ContactForm";
 import WorkProcess from "./components/WorkProcess";
+import PortfolioSection from "./components/PortfolioSection";
 import WhatIDo from "./components/WhatIDo";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HappyClient from "./components/HappyClient";
@@ -15,6 +17,7 @@ function App() {
       <ContactForm />
       <HappyClient />
       <Testimonial />
+      <PortfolioSection />
       <Blog />
       <WhatIDo /> 
     </>
