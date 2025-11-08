@@ -7,16 +7,19 @@ import WhatIDo from "./components/WhatIDo";
 import HappyClient from "./components/HappyClient";
 import Testimonial from "./components/Testimonial";
 import ProjectIdeas from "./components/ProjectIdeas";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
+  
       <ContactForm />
       <ProjectIdeas/>
       <HappyClient />
       <Testimonial />
       <PortfolioSection />
       <Blog />
+      <Hero />
       <WhatIDo /> 
     </>
   );
