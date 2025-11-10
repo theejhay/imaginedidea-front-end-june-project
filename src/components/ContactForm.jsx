@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import FacebookIcon from "../assets/images/Facebook.png";
 import BallIcon from "../assets/images/Ball.png";
 import BeIcon from "../assets/images/Be.png";
@@ -7,7 +7,6 @@ import InstagramIcon from "../assets/images/Instagram.png";
 import PlaneIcon from "../assets/images/Plane.png";
 import AddIcon from "../assets/images/Add1.png";
 import Add2 from "../assets/images/Add2.png";
-
 
 const ContactForm = () => {
   const [FormData, setFormData] = useState({
@@ -20,7 +19,7 @@ const ContactForm = () => {
   });
 
   const handleChange = (e) => {
-    setFormData({ ...FormData, [e.target.name]: e.target.value });
+    setFormData({...FormData, [e.target.name]: e.target.value});
   };
 
   const handleSubmit = (e) => {
@@ -49,7 +48,7 @@ const ContactForm = () => {
 
           <div className="mb-4 d-flex align-items-center info">
             <div className="icon-wrapper">
-              <img src= {Add2} alt="Add2" className="purple-icon-2 me-2" />
+              <img src={Add2} alt="Add2" className="purple-icon-2 me-2" />
             </div>
             <div>
               <div className="text-muted"> My Email:</div>
@@ -59,7 +58,7 @@ const ContactForm = () => {
 
           <div className="mb-5 d-flex align-items-center info">
             <div className="icon-wrapper">
-              <img src= {Add2} alt="Add2" className="purple-icon-2 me-2" />
+              <img src={Add2} alt="Add2" className="purple-icon-2 me-2" />
             </div>
             <div>
               <div className="text-muted"> Call Me Now:</div>
@@ -68,7 +67,7 @@ const ContactForm = () => {
           </div>
 
           <div className="d-flex align-items-center gap-4 mt-4 fs-4">
-            <img src= {FacebookIcon} alt="Facebook" className="social-Icon" />
+            <img src={FacebookIcon} alt="Facebook" className="social-Icon" />
             <img src={BallIcon} alt="Ball" />
             <img src={BeIcon} alt="Be" />
             <img src={InstagramIcon} alt="Instagram" />
@@ -160,8 +159,7 @@ const ContactForm = () => {
               <button
                 type="submit"
                 className="submit-btn-with-plane"
-                style={{ display: "flex", alignItems: "center" }}
-              >
+                style={{display: "flex", alignItems: "center"}}>
                 <span className="me-2">Submit</span>
                 <img src={PlaneIcon} alt="plane" className="plane-icon" />
               </button>
