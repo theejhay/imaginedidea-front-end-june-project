@@ -1,7 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Blog from "./components/Blog";
 import ContactForm from "./components/ContactForm";
+import FootSec from "./components/FootSec";
+import Blog from "./components/Blog";
 import PortfolioSection from "./components/PortfolioSection";
 import WhatIDo from "./components/WhatIDo";
 import HappyClient from "./components/HappyClient";
@@ -11,6 +12,9 @@ import ProjectIdeas from "./components/ProjectIdeas";
 function App() {
   return (
     <>
+      {/* <WorkProcess />
+      <ContactForm /> */}
+      <FootSec />
       <ContactForm />
       <ProjectIdeas/>
       <HappyClient />

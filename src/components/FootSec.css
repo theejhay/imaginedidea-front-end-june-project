@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+    box-sizing: border-box;
+}
+
+
+
+    footer {
+      background-color: #243043;
+      color: #ccc;
+      padding: 1rem 1rem;
+      padding: 100px 400px;
+    }
+    .logo-circle {
+      width: 35px;
+      height: 35px;
+      background-color: #9D4EDD;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 600;
+      margin-right: 0.5rem;
+    }
+    .footer-nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 0.75rem;
+      font-weight: 500;
+    }
+    .footer-nav a:hover {
+      color: #fff;
+    }
+  
+
+
+
+
+
+
+
