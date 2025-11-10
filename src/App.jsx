@@ -8,19 +8,30 @@ import HappyClient from "./components/HappyClient";
 import Testimonial from "./components/Testimonial";
 import ProjectIdeas from "./components/ProjectIdeas";
 import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import WorkProcess from "./components/WorkProcess";
+import Usercard from "./components/Usercard";
+import FootSec from "./components/FootSec";
 
 function App() {
   return (
     <>
-  
-      <ContactForm />
-      <ProjectIdeas/>
-      <HappyClient />
-      <Testimonial />
-      <PortfolioSection />
-      <Blog />
+      <Navbar />
       <Hero />
+      <Usercard />
+      <WorkProcess />
+      <PortfolioSection />
+      <ProjectIdeas/>
+      <Blog />
       <WhatIDo /> 
+      <HappyClient />
+       <Testimonial />
+      <ContactForm />
+      <FootSec />
+      
+      
+    
+      
     </>
   );
 }
