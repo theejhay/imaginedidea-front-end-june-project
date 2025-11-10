@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+    box-sizing: border-box;
+}
+
+.footer-logo > span{
+   font-family: Work Sans;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+.footer-nav > a{
+    text-decoration: none;
+     font-size: 16px;
+    font-weight: 400;
+    font-family: Work Sans;
+    line-height: 24px; 
+    color:#F0F1F3  ;
+    margin-left: 20px; 
+}
+
+.main-container{
+    height:330px;
+    background-color: #2B384C;
+    color: #F0F1F3;  
+}
+.footer{
+    height: 56px;
+}
+div > small{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Work Sans;
+    line-height: 24px; 
+    color:#F0F1F3  ;
+}
+
+
+
+
+
+
+
