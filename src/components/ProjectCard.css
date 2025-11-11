@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-.container {
+.card-container {
   padding-top: 70px;
 }
 
@@ -51,7 +51,7 @@
   padding-left: 17px;
 }
 
-.btn-primary {
+.btn-case-study {
   border-radius: 4px;
   border: 1px;
   background-color: #ffffff;
@@ -63,7 +63,7 @@
   font-size: 16px;
 }
 
-.btn-primary:hover {
+.btn-case-study:hover {
   width: 138px;
   height: 37.5px;
   background-color: #ffffff;
@@ -77,7 +77,7 @@
   padding: 0%;
 }
 
-.btn-primary:hover:active {
+.btn-case-study:hover:active {
   background-color: #ffffff;
   color: #a53dff;
   border-color: #a53dff;

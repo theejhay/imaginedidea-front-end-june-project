@@ -6,7 +6,7 @@ function Testimonial() {
     <div className="testimonial-container col-12 col-sm-6 col-md-4 mb-4">
       <div className="frame-283 col-12 col-sm-6 col-md-4 mb-4">
         <div className="head-and-sub-head">
-          <h2 className="heading">Testmonial</h2>
+          <h2 className="title">Testmonial</h2>
 
           <p className="sub-heading">
             There are many variations of passages of Lorem Ipsum available,{" "}
