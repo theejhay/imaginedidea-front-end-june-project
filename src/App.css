@@ -18,6 +18,7 @@
     gap: 4vw;
     display: flex;
     flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -114,6 +115,11 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+.work-process-component-2 > .work-process-step-2{
+    margin-top: 18px;
+}
+
+
 
 /* Responsive styles */
 @media (max-width: 1200px) {

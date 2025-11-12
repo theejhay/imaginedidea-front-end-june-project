@@ -5,6 +5,7 @@
 
 .body{
     box-sizing: border-box;
+     background: linear-gradient(135deg, #fffafc 0%, #f3f4f6 35%, #e0f7f4 65%, #f6f9ff 100%);
 }
 
 
