@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../assets/images/logo_2.png";
+import logo from "../assets/logo.png";
 import "./FootSec.css";
 
 function FootSec() {
