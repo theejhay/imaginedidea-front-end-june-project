@@ -1,24 +1,20 @@
 /* === USER CARD CONTAINER === */
 .user-card-container {
-  width: 1380px;
-  height: 728px;
+  position: relative;
+  width: 100%;
+  max-width: 1500px; 
+  height: auto;
   border-radius: 16px;
-  padding: 112px;
+  padding: 56px; 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 136px;
+  gap: 48px; 
   background-color: #ffffff;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  opacity: 1;
-  transform: rotate(0deg);
   box-sizing: border-box;
-
-  /* Center it perfectly on the screen */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 32px auto; 
+  z-index: 1; 
 }
 
 /* === PROFILE IMAGE SECTION === */

@@ -128,8 +128,7 @@
   color: #6b7280;
   margin-top: 6px;
 }
-
-.profile-img {
+.hero-right .profile-img {
   width: 536px;
   height: 636px;
   border-radius: 26px;
@@ -137,8 +136,8 @@
   display: block;
   opacity: 1;
   transform: rotate(0deg);
-  
 }
+
 
 /* === Tablet (up to 1024px) === */
 @media (max-width: 1024px) {
@@ -170,11 +169,11 @@
   .hero-left .intro {
     font-size: 16px;
     line-height: 26px;
-    width: 100%;
+   width: 100%;
     max-width: 90%;
   }
 
-  .profile-img {
+  .hero-right .profile-img {
     width: 100%;
     max-width: 420px;
     height: auto;
@@ -230,7 +229,7 @@
     max-width: 280px;
   }
 
-  .profile-img {
+ .hero-right .profile-img {
     max-width: 320px;
     border-radius: 20px;
   }
