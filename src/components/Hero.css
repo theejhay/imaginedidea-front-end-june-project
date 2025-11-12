@@ -1,10 +1,15 @@
 /* Hero section background */
+:root {
+  --hero-bg: linear-gradient(135deg, #fffafc 0%, #f3f4f6 35%, #e0f7f4 100%, #f6f9ff 100%);
+}
+
+/* Hero section background */
 .hero {
   width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #fffafc 0%, #f3f4f6 35%, #e0f7f4 65%, #f6f9ff 100%);
+  background: var(--hero-bg);
   overflow: hidden;
   padding: 80px 0; /* vertical space only */
 }

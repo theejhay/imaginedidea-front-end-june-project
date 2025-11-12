@@ -1,9 +1,10 @@
-.what-i-do {
+
+.what-i-do.what-i-do {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 80px 7px;
-    background-color: #f9f9f9;
+    background:#F0F1F3;
     min-height: 100vh;
 }
 
