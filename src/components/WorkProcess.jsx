@@ -12,8 +12,8 @@ function WorkProcess() {
           <div className="work-process-component-1-description">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              purus arcu, varius eget velit non, laoreet imperdiet orci.
-              Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
+              purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris
+              ultrices eget lorem ac vestibulum. Suspendis imperdiet,
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -32,7 +32,7 @@ function WorkProcess() {
               </p>
             </div>
           </div>
-          <div className="work-process-step">
+          <div className="work-process-step-2">
             <img src={graph} alt="Analysis" />
             <div className="details">
               <h1>2. Analysis</h1>
@@ -52,7 +52,7 @@ function WorkProcess() {
               </p>
             </div>
           </div>
-          <div className="work-process-step">
+          <div className="work-process-step-2">
             <img src={laptop} alt="Launch" />
             <div className="details">
               <h1>4. Launch</h1>
