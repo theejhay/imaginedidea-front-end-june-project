@@ -6,7 +6,7 @@ function ProjectCard({ image, subTitle, title, description, caseStudy }) {
   return (
     <>
       <div className="d-flex flex-wrap">
-        <div className="container mt-8">
+        <div className="card-container mt-8">
           <div className="card">
             <img src={image} className="card-img-top" />
             <div className="frame-56">
@@ -17,7 +17,7 @@ function ProjectCard({ image, subTitle, title, description, caseStudy }) {
                 <p className="card-text"> {description} </p>
               </div>
               <div className="case-study">
-                <button className="btn btn-primary">
+                <button className="btn btn-case-study">
                   {caseStudy}
                   <FontAwesomeIcon icon={faArrowRight} className="arrow" />
                 </button>
